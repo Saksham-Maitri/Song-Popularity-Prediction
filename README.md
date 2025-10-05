@@ -11,7 +11,7 @@ Before running the code, please adjust the file paths as this notebook was origi
 ### 🧠 Methodology
 
 1. **Imputation:** Performed using **MICE (Multiple Imputation by Chained Equations)** on the train and test data **separately** to avoid data leakage.
-2. I am using **XGB** for both regression and classification in MICE.
+2. **Imputation:** I am using **XGB** for both regression and classification in MICE.
 3. **Exploration:** Applied **t-SNE** and **Separability Scores** to visualize and assess feature separability.  
 4. **Feature Engineering:** Used **GP-Learn** for **evolutionary feature construction and optimization**.  
 5. **Modeling:** Tuned **XGBoost** and **LightGBM** models using **Optuna** for hyperparameter optimization.  
